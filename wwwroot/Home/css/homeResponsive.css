@@ -1,0 +1,284 @@
+﻿/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .responsivr {
+        display: none;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .mega-box,
+    .mega-box22 {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+
+    .offcanvas {
+        width: 100%;
+    }
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) {
+    .Commercial {
+        background-image: linear-gradient(rgb(225, 228, 233) 37.22%, rgba(225, 228, 233, 0) 128.44%), url(https://static.99acres.com/universalhp/img/d_hp_com_buy_xl.webp);
+        width: 100%;
+        top: 0px;
+        height: 100%;
+        cursor: pointer;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.4s ease-in-out;
+        border-radius: 12px;
+    }
+
+    .responsi {
+        display: block;
+    }
+
+    .Insights_Tools1 {
+        background-color: #f0f9ff;
+        width: 100%;
+        margin: auto;
+        border-radius: 12px;
+        height: auto;
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+
+    .reshtag {
+        margin-top: 85px;
+    }
+
+    .Commercial12 {
+        background-image: linear-gradient(rgb(225, 228, 233) 37.22%, rgba(225, 228, 233, 0) 128.44%), url(https://static.99acres.com/universalhp/img/d_hp_com_lease_xl.webp);
+        width: 100%;
+        top: 10px;
+        height: 100%;
+        cursor: pointer;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.4s ease-in-out;
+        border-radius: 12px;
+    }
+
+    .Providentdiv {
+        align-items: center;
+        background: white;
+        padding: 15px;
+        border-radius: 15px;
+        position: relative;
+        margin-top: 10px;
+        margin-left: 0px;
+        box-shadow: 0px 0px 4px 0px #bdb5b5;
+    }
+
+    .igimage {
+        background-image: url(../../Landing_Folder/Images/99iagesbanner.jpg);
+        background-repeat: no-repeat;
+        cursor: pointer;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.4s ease-in-out;
+        height: 100%;
+    }
+
+    .image-container {
+        height: 247px;
+    }
+
+    hr {
+        height: 0px !important;
+        width: 97%;
+        margin: auto;
+        display: none;
+    }
+
+    .display_xl_bold {
+        width: 100%;
+    }
+
+    .resheding {
+        margin-top: 80px;
+    }
+
+    .resheighdiv {
+        background: #F4F5F7;
+        height: auto;
+    }
+
+    .lastresponsive {
+        margin-top: 0px !important;
+    }
+
+    .PageSearchBox {
+        width: 100%;
+        margin: 0 auto;
+        background: white;
+        margin-top: -33px;
+        border-radius: 16px;
+        box-shadow: 0px 3px 10px 0px #cdc7c7;
+        padding: 13px;
+        position: relative;
+    }
+
+    .droprespo {
+        display: none !important;
+    }
+
+    .serchbtn {
+        display: none !important;
+    }
+
+    .PifCarousal__bottomBar {
+        display: flex;
+        justify-content: space-between;
+        background: #010C1F;
+        height: auto;
+        align-items: center;
+        position: relative;
+        padding: 16px 20px;
+        margin-top: -6px;
+        width: 100%;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        box-shadow: 0px 3px 8px rgba(31, 92, 163, 0.2);
+    }
+
+
+    .Non-essential img {
+        width: 50px;
+        border-radius: 8px;
+        height: 52px;
+        object-fit: cover;
+    }
+
+    .footer--light {
+        display: none;
+    }
+
+    .navarresponsive {
+        display: inline-block;
+    }
+
+    #carouselExampleControls {
+        box-shadow: 0px 0px 2px 8px #e2e5ed;
+        border-radius: 3px;
+        width: 100%;
+        background-image: url('https://newprojects.99acres.com/projects/goodwill_developers/goodwill_wisteria/images/8gnhdkb_1700918461_458208102_large.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin: auto;
+    }
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 1024px) {
+
+    .padingnow {
+        padding: 0px;
+    }
+
+    .resmt {
+        margin-top: 70px !important;
+    }
+
+    .navbardivlist {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 99px;
+        gap: 25px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu ul {
+        display: none;
+    }
+
+    .menu .dropdown {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .carousel-item {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-item {
+        flex: 0 0 33.333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-item {
+        flex: 0 0 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-item {
+        flex: 0 0 20%;
+    }
+}
+
+
+
+
+
+
+
+
+/*============== bilder responsive css start ================*/
+
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) {
+    .sctres {
+        width: 100%;
+        margin: auto;
+    }
+
+    .cardimagediv {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 27px;
+        flex-wrap: wrap;
+    }
+
+    .iconbardiv {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .faqtag {
+        border: 1px solid #e7e6e6;
+        padding: 18px;
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .cardimagediv img {
+        height: 123px;
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 1000px) {
+}
+a:hover {
+    color: #075697;
+}
